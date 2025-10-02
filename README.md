@@ -53,11 +53,11 @@ Riverstone Place is an apartment development in Abbotsford, VIC. This project de
 ## 5. Cost to Run 100 Calls
 - Assumptions:
   - Avg call length: 5 minutes.
-  - Retell Voice Agent: AU$0.125/min → 5 min = AU$0.625 per call → ~AU$62.50 / 100 calls.
-  - Twilio SIP trunking: ~AU$0.015/min → 5 min = AU$0.075 per call → ~AU$7.50 / 100 calls.
-  - Hosting (Flask Booking API): Small dyno on Heroku/Render: ~US$7–10/month (~AU$12–15).
-  - Make.com automation: Starter plan (≈AU$15/month) covers logging volume.
-- Total Estimate (100 calls): ~AU$95–100 including infra + logging.
+  - Retell Voice Agent: AU$0.125/min → 5 min = AU$0.625 per call → ~US$62.50 / 100 calls.
+  - Twilio SIP trunking: ~AU$0.015/min → 5 min = AU$0.075 per call → ~US$7.50 / 100 calls.
+  - Hosting (Flask Booking API): Small dyno on Heroku/Render: ~US$7–10/month. 
+  - Make.com automation: ~US$15/month.
+- Total Estimate (100 calls): ~US$95–100 including infra + logging.
 
 ## 6. Improvement 
 - Upgrade booking server for reliability and production deployment
